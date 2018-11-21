@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         XerteDuplicator
-// @version      1.2
+// @version      1.3
 // @description  Adds button to XOT to duplicate selected item multiple times
 // @author       JdenHartog
 // @downloadURL  https://github.com/JdenHartog/XerteDuplicator/raw/master/XerteDuplicator.user.js
@@ -45,7 +45,7 @@
         for (i = 0; i < numberInput.value-1; i++) {
             setTimeout(function(){ copyButton.click(); }, 500*i);
             if (i == numberInput.value-2) {
-                setTimeout(function(){ alert('Klaar met dupliceren'); }, (500*i)+200);
+                setTimeout(function(){ alert('Klaar met dupliceren'); }, (500*i)+700);
             }
         }
     });
