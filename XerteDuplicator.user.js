@@ -45,7 +45,7 @@
         for (i = 0; i < numberInput.value-1; i++) {
             setTimeout(function(){ copyButton.click(); }, 500*i);
             if (i == numberInput.value-2) {
-                setTimeout(function(){ alert('Klaar met dupliceren'); }, (500*i)+700);
+                setTimeout(function(){ alert('Klaar met dupliceren'); }, (500*i)+1200);
             }
         }
     });
